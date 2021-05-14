@@ -1,0 +1,26 @@
+﻿@model Produit
+<h1 class="row">Formulaire Produit</h1>
+<form class="row" enctype="multipart/form-data" asp-controller="Produit" asp-action="SubmitForm" method="post">
+    <div class="col">
+        <input type="hidden" name="id" asp-for="@Model.Id" />
+        @*<input type="hidden" name="id" value="@Model.Id" />*@
+        <div class="row m-1">
+            <input type="text" name="article" asp-for="@Model.Article" placeholder="Nom de l'article" class="col form-control p-1" />
+        </div>
+        <div class="row m-1">
+            <input type="text" name="categorie" asp-for="@Model.Categorie" placeholder="Catégorie de l'article" class="col form-control p-1" />
+        </div>
+        <div class="row m-1">
+            <input type="text" name="prix" asp-for="@Model.Prix" placeholder="Prix de l'article" class="col form-control p-1" />
+        </div>
+        <div class="row m-1">
+            <input type="text" name="prix" asp-for="@Model.Stock" placeholder="Quantité en stock" class="col form-control p-1" />
+        </div>
+        <div class="row m-1">
+            <input type="file" name="avatar" class="col form-control p-1" />
+        </div>
+        <div class="row m-1">
+            <button type="submit" class="col btn btn-dark">Valider</button>
+        </div>
+    </div>
+</form>

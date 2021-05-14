@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoursAspNEIN", "CoursAspNEIN\CoursAspNEIN.csproj", "{F8969660-2E4E-4977-AB56-CB051A2214AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoursAspNet", "..\PROF\M2iValenciennesDotNet\CoursAspNet\CoursAspNet.csproj", "{706DBF70-5793-43BB-877B-7DC9AE711FAB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnnuaireWPF", "..\PROF\M2iValenciennesDotNet\AnnuaireWPF\AnnuaireWPF.csproj", "{1B78E7D1-BF66-472F-99D3-C40FC13B3BC8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TpCompteBancaireWPF", "..\PROF\M2iValenciennesDotNet\TpCompteBancaireWPF\TpCompteBancaireWPF.csproj", "{98B3E4C5-BFE5-445A-80ED-B28CCE3E038E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "¤¤¤1", "¤¤¤1", "{945DBEF3-80E8-4C2F-B6D8-273F6D523451}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BanqueWeb", "..\PROF\M2iValenciennesDotNet\BanqueWeb\BanqueWeb.csproj", "{F6B26120-9FEE-48D8-BAEC-E4219A6428F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcommerceNEIN", "EcommerceNEIN\EcommerceNEIN.csproj", "{64E92C47-B52E-47B8-A28D-8E3D91D56C71}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8969660-2E4E-4977-AB56-CB051A2214AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8969660-2E4E-4977-AB56-CB051A2214AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8969660-2E4E-4977-AB56-CB051A2214AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8969660-2E4E-4977-AB56-CB051A2214AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{706DBF70-5793-43BB-877B-7DC9AE711FAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{706DBF70-5793-43BB-877B-7DC9AE711FAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{706DBF70-5793-43BB-877B-7DC9AE711FAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{706DBF70-5793-43BB-877B-7DC9AE711FAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B78E7D1-BF66-472F-99D3-C40FC13B3BC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B78E7D1-BF66-472F-99D3-C40FC13B3BC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B78E7D1-BF66-472F-99D3-C40FC13B3BC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B78E7D1-BF66-472F-99D3-C40FC13B3BC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98B3E4C5-BFE5-445A-80ED-B28CCE3E038E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98B3E4C5-BFE5-445A-80ED-B28CCE3E038E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98B3E4C5-BFE5-445A-80ED-B28CCE3E038E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98B3E4C5-BFE5-445A-80ED-B28CCE3E038E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6B26120-9FEE-48D8-BAEC-E4219A6428F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6B26120-9FEE-48D8-BAEC-E4219A6428F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6B26120-9FEE-48D8-BAEC-E4219A6428F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6B26120-9FEE-48D8-BAEC-E4219A6428F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64E92C47-B52E-47B8-A28D-8E3D91D56C71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64E92C47-B52E-47B8-A28D-8E3D91D56C71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64E92C47-B52E-47B8-A28D-8E3D91D56C71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64E92C47-B52E-47B8-A28D-8E3D91D56C71}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{98B3E4C5-BFE5-445A-80ED-B28CCE3E038E} = {945DBEF3-80E8-4C2F-B6D8-273F6D523451}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C4B4882-9791-421E-87BC-159368621579}
+	EndGlobalSection
+EndGlobal

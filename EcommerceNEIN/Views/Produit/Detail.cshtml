@@ -1,0 +1,30 @@
+﻿@model Produit
+@if (Model == null)
+{
+    <div class="row">
+        <div class="col alert alert-danger">
+            Aucun produit avec cet id
+        </div>
+    </div>
+}
+else
+{
+    <div class="row">
+        <div class="col">
+            <div class="row">
+                <div class="col">
+                    Article : @Model.Article
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    Catégorie : @Model.Categorie
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="row">
+        <a asp-controller="Produit" asp-action="Index" class="btn btn-secondary col">Retour à l'accueil</a>
+    </div>
+}
